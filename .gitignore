@@ -1,0 +1,20 @@
+# данные и результаты (тяжёлые, не версионируем)
+data/raw/*.npy
+data/raw/*.txt
+results/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.venv/
+venv/
+
+# IDE/OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
